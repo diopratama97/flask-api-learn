@@ -29,7 +29,7 @@ class ContohResource(Resource):
         umur = request.form["umur"]
         identitas["nama"] = nama
         identitas["umur"] = umur
-        response = {"message": "Success"}
+        response = {"message": "Success poll"}
         return response
 
 #setup resource
